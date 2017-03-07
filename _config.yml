@@ -1,2 +1,2 @@
-baseurl: /js-dojo
+baseurl: /js-dojo-jekyll
 exclude: ['README.md']
