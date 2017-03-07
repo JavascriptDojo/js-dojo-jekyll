@@ -1,0 +1,2 @@
+baseurl: /js-dojo
+exclude: ['README.md']
