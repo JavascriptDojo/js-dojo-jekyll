@@ -13,3 +13,11 @@ Good youtube tutorial on Jekyll
 ```
 https://www.youtube.com/playlist?list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-
 ```
+
+Comment:
+Page load is slow.
+We could use ...
+https://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
+or
+jquery.fullPage.js
+or something like that?
