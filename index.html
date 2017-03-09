@@ -2,8 +2,33 @@
 layout: default
 ---
 <div class="container">
-  <h1>Hello, World!</h1>
-  <p>This is JS Dojo Site</p>
-  <p>We are bunch of coders!</p>
+  <h1 id="groupTitle"></h1>
+
+
+
+  <br>
+  <div class="m-4">
+    <!-- we should use some data loop for meetups below later (refactor) -->
+    <h2>Next Meetups</h2>
+    <div id="meetup1">
+      <h3>Date: <span class="date"></span></h3>
+    </div>
+
+    <div id="meetup2">
+      <h3>Date: <span class="date"></span></h3>
+    </div>
+
+    <div id="meetup3">
+      <h3>Date: <span class="date"></span></h3>
+    </div>
+  </div>
+
+  <div class="m-4">
+    <h2>About us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
   <button class="btn btn-primary">Click me</button>
 </div>
+
+<script src="{{ site.baseurl }}/javascript/group-info.js"></script>
