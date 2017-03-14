@@ -12,14 +12,14 @@
     <title>Scrolling Nav - Start Bootstrap Template</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/css/scrolling-nav.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 
-    <link href="css/common.scss" rel="stylesheet">
+    <link href="{{ site.baseurl }}/css/common.scss" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,14 +30,14 @@
 
 </head>
 <!-- jQuery -->
-<script src="js/jquery.js"></script>
+<script src="{{ site.baseurl }}/js/jquery.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
 
 <!-- Scrolling Nav JavaScript -->
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/scrolling-nav.js"></script>
+<script src="{{ site.baseurl }}/js/jquery.easing.min.js"></script>
+<script src="{{ site.baseurl }}/js/scrolling-nav.js"></script>
 
 
 <!-- Nav bar -->
@@ -45,16 +45,6 @@
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-
-
-
-
-
-
-
-
-
 
 
     <!-- Next Meetup Section -->
@@ -74,6 +64,7 @@
     {% include contact.html %}
     </section>
 
+    <script src="{{ site.baseurl }}/js/group-info.js"></script>
 </body>
-<script src="js/group-info.js"></script>
+
 </html>
