@@ -40,31 +40,15 @@
 <script src="{{ site.baseurl }}/js/scrolling-nav.js"></script>
 
 
-<!-- Nav bar -->
-{% include nav.html %}
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+  <!-- Nav bar -->
+  {% include nav.html %}
+
+  {{ content }}
 
 
-    <!-- Next Meetup Section -->
-    <section id="nextmeetups" class="meetups-section">
-
-    {% include nextmeetups.html %}
-
-    </section>
-
-    <!-- About Section -->
-    <section id="aboutus" class="about-section">
-        {% include aboutus.html %}
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-    {% include contact.html %}
-    </section>
-
-    <script src="{{ site.baseurl }}/js/group-info.js"></script>
 </body>
 
 </html>
