@@ -1,5 +1,4 @@
-
-console.log("hello, Ajax!");
+console.log("hello, Ajax javascript folder !");
 
 
 $.when($.ajax({
@@ -7,7 +6,7 @@ $.when($.ajax({
     dataType: 'jsonp'
   }))
   .then(function(obj){
-    $('#groupTitle').html(obj.data.name);
+    $('#groupTitle').html(" "+obj.data.name);
     $('#groupLogo').prepend("<img src='"+obj.data.group_photo.thumb_link+"' />");
     $('#groupDescription').html(obj.data.description);
 
@@ -24,9 +23,15 @@ $.when($.ajax({
       dataType: 'jsonp'
     }))
     .then(function(obj){
+      /*
       $("#meetup1 > h3 > .date").html(new Date(obj.data["0"].time));
       $("#meetup2 > h3 > .date").html(new Date(obj.data["1"].time));
       $("#meetup3 > h3 > .date").html(new Date(obj.data["2"].time));
+      */
+
+      $("#meetup1").html(new Date(obj.data["0"].time));
+      $("#meetup2").html(new Date(obj.data["1"].time));
+      $("#meetup3").html(new Date(obj.data["2"].time));
 
     }, function(xhr, status, error){
       console.log(xhr.status + "-" + error);
