@@ -1,4 +1,5 @@
-console.log("hello, Ajax javascript folder !");
+
+console.log("hello, Ajax! js folder");
 
 
 $.when($.ajax({
@@ -6,7 +7,7 @@ $.when($.ajax({
     dataType: 'jsonp'
   }))
   .then(function(obj){
-    $('#groupTitle').html(" "+obj.data.name);
+    $('#groupTitle').html(obj.data.name);
     $('#groupLogo').prepend("<img src='"+obj.data.group_photo.thumb_link+"' />");
     $('#groupDescription').html(obj.data.description);
 
