@@ -1,6 +1,4 @@
 
-console.log("hello, Ajax! js folder");
-
 
 $.when($.ajax({
     url: "https://api.meetup.com/JavaScript-Dojo-Cheltenham?photo-host=public&sig_id=195859323&sig=5073c9258b8676366f6f50520dfdfcb24970dd08",
@@ -11,8 +9,6 @@ $.when($.ajax({
     $('#groupLogo').prepend("<img src='"+obj.data.group_photo.thumb_link+"' />");
     $('#groupDescription').html(obj.data.description);
 
-
-    console.log(obj.data);
 
 
   }, function(xhr, status, error){
@@ -30,10 +26,15 @@ $.when($.ajax({
       $("#meetup3 > h3 > .date").html(new Date(obj.data["2"].time));
       */
 
-      $("#meetup1").html(new Date(obj.data["0"].time));
-      $("#meetup2").html(new Date(obj.data["1"].time));
-      $("#meetup3").html(new Date(obj.data["2"].time));
+      $("#meetup1").html(prettyDate(new Date(obj.data["0"].time)));
+      $("#meetup2").html(prettyDate(new Date(obj.data["1"].time)));
+      $("#meetup3").html(prettyDate(new Date(obj.data["2"].time)));
 
     }, function(xhr, status, error){
       console.log(xhr.status + "-" + error);
     });
+
+    function prettyDate(pdate)
+    {
+      return pdate.toString().split(":").slice(0,2).join(":");
+    }
