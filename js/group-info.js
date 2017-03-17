@@ -20,12 +20,6 @@ $.when($.ajax({
       dataType: 'jsonp'
     }))
     .then(function(obj){
-      /*
-      $("#meetup1 > h3 > .date").html(new Date(obj.data["0"].time));
-      $("#meetup2 > h3 > .date").html(new Date(obj.data["1"].time));
-      $("#meetup3 > h3 > .date").html(new Date(obj.data["2"].time));
-      */
-
       $("#meetup1").html(prettyDate(new Date(obj.data["0"].time)));
       $("#meetup2").html(prettyDate(new Date(obj.data["1"].time)));
       $("#meetup3").html(prettyDate(new Date(obj.data["2"].time)));
