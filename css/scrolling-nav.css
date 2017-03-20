@@ -20,7 +20,7 @@
   margin-left: 50px;
 }
 
-.about-section, .meetups-section, .news-section, .contact-section {
+section {
     height: 100%;
     padding-top: 100px;
     text-align: center;

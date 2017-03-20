@@ -1,15 +1,16 @@
 ---
 layout: default
 ---
-<br>
-<br>
-<br>
-Blog
+<section id="start"></section>
+<section id="bloglist">
+    <h2>Blogs</h2>
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        <p>{{post.meta}}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
