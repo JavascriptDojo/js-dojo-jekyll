@@ -1,0 +1,14 @@
+<div class="m-4">
+    <h2>Blog</h2>
+    Here we can show highlights of the top stories from the blog
+    <div class="row">
+        {% for post in site.posts limit:3 %}
+        <div class="col-lg-4">
+            <h3>Blog Story</h3>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <p>{{post.meta}}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <a href="{{ site.baseurl }}/blog">Here we can link to get all the blog stories</a>
+</div>
