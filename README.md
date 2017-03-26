@@ -3,7 +3,7 @@ Quick website launch using jekyll
 
 To run locally
 ```
-jekyll serve --watch ~~--baseurl ""~~ baseurl is now in _config.yml
+jekyll serve --watch --baseurl "" ~~ baseurl is now in _config.yml
 ```
 
 To publish on the internet, just add, commit, and push to origin gh-pages.
@@ -21,3 +21,7 @@ https://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effec
 or
 jquery.fullPage.js
 or something like that?
+
+#Bootstrap 3 sass
+Please refer to
+https://github.com/twbs/bootstrap-sass
