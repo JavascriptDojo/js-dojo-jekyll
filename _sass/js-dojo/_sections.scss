@@ -1,0 +1,24 @@
+section {
+    min-height: 100%;
+    padding: 100px 50px 0 50px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.meetups-section {
+  background-image: url("https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/8/3/1/f/highres_458973567.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 36px;
+  text-align: center;
+}
+
+.top-info-block {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.57);
+  padding: 10px 50px 40px 50px;
+  text-align: center;
+}

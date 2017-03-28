@@ -1,0 +1,16 @@
+// Custom Variables
+$black-bg: #000000;
+
+// //** Background color for `<body>`.
+// $body-bg:               #fff !default;
+$body-bg:               $black-bg !default;
+
+// $font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-base:  'Inconsolata', monospace;
+
+// $font-size-base:          14px !default;
+$font-size-base:          22px !default;
+
+//** Global text color on `<body>`.
+// $text-color:            $gray-dark !default;
+$text-color:            #eee !default;
