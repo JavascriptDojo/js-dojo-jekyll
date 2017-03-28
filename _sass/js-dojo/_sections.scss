@@ -1,10 +1,9 @@
 section {
     min-height: 100%;
-    padding: 100px 50px 0 50px;
+    padding-top: 100px;
 }
-
-.align-center {
-  text-align: center;
+.blog-top-margin {
+  margin-top: 90px;
 }
 
 .meetups-section {
@@ -12,13 +11,11 @@ section {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  font-size: 36px;
   text-align: center;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 .top-info-block {
-  margin: auto;
   background-color: rgba(0, 0, 0, 0.57);
-  padding: 10px 50px 40px 50px;
-  text-align: center;
 }
