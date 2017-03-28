@@ -14,15 +14,10 @@ Good youtube tutorial on Jekyll
 https://www.youtube.com/playlist?list=PLWjCJDeWfDdfVEcLGAfdJn_HXyM4Y7_k-
 ```
 
-Comment:
-Page load is slow.
-We could use ...
-https://www.script-tutorials.com/bootstrap-one-page-template-with-parallax-effect/
-or
-jquery.fullPage.js
-or something like that?
-
-#Bootstrap 3 sass
+#### Bootstrap 3 sass
 Please refer to
 https://github.com/twbs/bootstrap-sass
 https://www.sitepoint.com/bootstrap-sass-installation-and-customisation/
+
+#### We can write blogs using markdown.
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
