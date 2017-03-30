@@ -1,26 +1,22 @@
 ---
 layout: default
 ---
-<!-- Next Meetup Section -->
-<section id="nextmeetups" class="meetups-section">
 
-{% include nextmeetups.html %}
+  <!-- Next Meetup Section -->
+  {% include nextmeetups.html %}
 
-</section>
+  <!-- News Section -->
+  {% include news.html %}
 
-<!-- About Section -->
-<section id="aboutus" class="about-section">
-    {% include aboutus.html %}
-</section>
+  <!-- Blog Section -->
+  {% include blogLatestStories.html %}
 
-<!-- News Section -->
-<section id="news" class="news-section">
-    {% include news.html %}
-</section>
+  <!-- About Section -->
+  {% include aboutus.html %}
 
-<!-- Contact Section -->
-<section id="contact" class="contact-section">
-{% include contact.html %}
-</section>
+
+  <!-- Contact Section -->
+  {% include contact.html %}
 
 <script src="{{ site.baseurl }}/js/group-info.js"></script>
+<script src="{{ site.baseurl }}/js/map.js"></script>

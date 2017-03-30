@@ -1,2 +1,3 @@
 _site
 .atomignore
+.sass-cache
