@@ -47,7 +47,6 @@ Possible stack:
 
 <br>
 #### Planned visit by a web development company
-Mark would like to show his cv to the company to see how he can improve it.
 We would be grateful if we can network with the experienced front end web developers from the company.  We are looking for their talk and discussion with them.
 
 <br>
