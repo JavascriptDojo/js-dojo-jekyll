@@ -1,7 +1,8 @@
 section {
     min-height: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
 }
+
 .blog-top-margin {
   margin-top: 90px;
 }
@@ -14,8 +15,10 @@ section {
   text-align: center;
   padding-left: 0px !important;
   padding-right: 0px !important;
+  height: 100%;
 }
 
 .top-info-block {
-  background-color: rgba(0, 0, 0, 0.57);
+  background-color: rgba(0, 0, 0, 0.21);
+  height: 100%;
 }
